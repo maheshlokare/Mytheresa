@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 50.021 s <<< FAILURE! - in TestSuite
+com.qa.mytheresa.tests.HomePageTest.verifyBrokenLinks  Time elapsed: 30.013 s  <<< FAILURE!
+com.microsoft.playwright.TimeoutError: 
+Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+  waiting for frame "#privacy-iframe"
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+  waiting for frame "#privacy-iframe"
+============================================================
+    at ProgressController.run (/private/var/folders/0d/nltcyhds4t99c9fktvddhg040000gp/T/playwright-java-4325551203714878608/package/lib/server/progress.js:96:26)
+    at Frame.click (/private/var/folders/0d/nltcyhds4t99c9fktvddhg040000gp/T/playwright-java-4325551203714878608/package/lib/server/frames.js:1158:23)
+    at FrameDispatcher.click (/private/var/folders/0d/nltcyhds4t99c9fktvddhg040000gp/T/playwright-java-4325551203714878608/package/lib/server/dispatchers/frameDispatcher.js:173:30)
+    at DispatcherConnection.dispatch (/private/var/folders/0d/nltcyhds4t99c9fktvddhg040000gp/T/playwright-java-4325551203714878608/package/lib/server/dispatchers/dispatcher.js:352:46)
+}
+	at com.qa.mytheresa.tests.HomePageTest.verifyBrokenLinks(HomePageTest.java:23)
+Caused by: com.microsoft.playwright.TimeoutError: 
+Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+  waiting for frame "#privacy-iframe"
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+  waiting for frame "#privacy-iframe"
+============================================================
+    at ProgressController.run (/private/var/folders/0d/nltcyhds4t99c9fktvddhg040000gp/T/playwright-java-4325551203714878608/package/lib/server/progress.js:96:26)
+    at Frame.click (/private/var/folders/0d/nltcyhds4t99c9fktvddhg040000gp/T/playwright-java-4325551203714878608/package/lib/server/frames.js:1158:23)
+    at FrameDispatcher.click (/private/var/folders/0d/nltcyhds4t99c9fktvddhg040000gp/T/playwright-java-4325551203714878608/package/lib/server/dispatchers/frameDispatcher.js:173:30)
+    at DispatcherConnection.dispatch (/private/var/folders/0d/nltcyhds4t99c9fktvddhg040000gp/T/playwright-java-4325551203714878608/package/lib/server/dispatchers/dispatcher.js:352:46)
+}
+	at com.qa.mytheresa.tests.HomePageTest.verifyBrokenLinks(HomePageTest.java:23)
+

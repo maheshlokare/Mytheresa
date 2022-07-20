@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Mytheres login suite">
+	<test name="broken links and login ">
+		<classes>
+			<class name="com.qa.mytheresa.tests.HomePageTest" />
+		</classes>
+	</test>
+</suite>

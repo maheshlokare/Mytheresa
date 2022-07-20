@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Mytheres login suite" duration-ms="25413" started-at="2022-07-19T22:54:53Z" finished-at="2022-07-19T22:55:18Z">
+    <groups>
+    </groups>
+    <test name="broken links and login " duration-ms="25413" started-at="2022-07-19T22:54:53Z" finished-at="2022-07-19T22:55:18Z">
+      <class name="com.qa.mytheresa.tests.HomePageTest">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String)[pri:0, instance:com.qa.mytheresa.tests.HomePageTest@4cf777e8]" name="beforeSuite" is-config="true" duration-ms="11" started-at="2022-07-19T22:54:53Z" finished-at="2022-07-19T22:54:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.mytheresa.tests.HomePageTest@4cf777e8]" name="setup" is-config="true" duration-ms="5486" started-at="2022-07-19T22:54:53Z" finished-at="2022-07-19T22:54:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="btest()[pri:0, instance:com.qa.mytheresa.tests.HomePageTest@4cf777e8]" name="btest" duration-ms="421" started-at="2022-07-19T22:54:58Z" finished-at="2022-07-19T22:54:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.mytheresa.tests.HomePageTest@4cf777e8]" name="tearDown" is-config="true" duration-ms="559" started-at="2022-07-19T22:54:59Z" finished-at="2022-07-19T22:54:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.mytheresa.tests.HomePageTest@4cf777e8]" name="setup" is-config="true" duration-ms="3710" started-at="2022-07-19T22:54:59Z" finished-at="2022-07-19T22:55:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.qa.mytheresa.tests.HomePageTest@4cf777e8]" name="login" duration-ms="14677" started-at="2022-07-19T22:55:03Z" finished-at="2022-07-19T22:55:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.mytheresa.tests.HomePageTest@4cf777e8]" name="tearDown" is-config="true" duration-ms="547" started-at="2022-07-19T22:55:18Z" finished-at="2022-07-19T22:55:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.mytheresa.tests.HomePageTest -->
+    </test> <!-- broken links and login  -->
+  </suite> <!-- Mytheres login suite -->
+</testng-results>

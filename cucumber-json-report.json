@@ -1,0 +1,110 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-18T21:44:46.285Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4167000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.mytheresa.tests.ApplicationHooks.setupCucumber()"
+            }
+          },
+          {
+            "result": {
+              "duration": 12783000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.mytheresa.tests.LoginStep.setupCucumber()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verify home screen element",
+        "description": "",
+        "id": "validate-home-screen;verify-home-screen-element;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 68000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.mytheresa.tests.LoginStep.tearDownCucmber()"
+            }
+          },
+          {
+            "result": {
+              "duration": 64000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.mytheresa.tests.ApplicationHooks.tearDownCucmber()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 207000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigates to website and accepts cookies",
+            "match": {
+              "location": "com.qa.mytheresa.tests.LoginStep.user_navigates_to_website_and_accepts_cookies()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4027000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user performs login with username \"mahesh.lokare@maildrop.cc\" and \"Test@1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mahesh.lokare@maildrop.cc\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"Test@1234\"",
+                  "offset": 66
+                }
+              ],
+              "location": "com.qa.mytheresa.tests.LoginStep.user_performs_login_with_username_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify user is logged in successfully",
+            "match": {
+              "location": "com.qa.mytheresa.tests.LoginStep.verify_user_is_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate Home Screen",
+    "description": "",
+    "id": "validate-home-screen",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  }
+]
